@@ -9,6 +9,7 @@ namespace MyPlayer
     class Player
     {
         private bool _locked;
+        private int _volume;
         bool IsPlaying;
         Song[] songs;
         Song PlayingSong;

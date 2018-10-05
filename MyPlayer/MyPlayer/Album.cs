@@ -8,5 +8,8 @@ namespace MyPlayer
 {
     class Album
     {
+        string _name;
+        Song[] songs;
+        Artist _artist;
     }
 }

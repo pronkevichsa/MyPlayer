@@ -55,7 +55,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Album.cs" />
-    <Compile Include="Author.cs" />
+    <Compile Include="Artist.cs" />
+    <Compile Include="Genre.cs" />
     <Compile Include="Playlist.cs" />
     <Compile Include="Song.cs" />
     <Page Include="MainWindow.xaml">

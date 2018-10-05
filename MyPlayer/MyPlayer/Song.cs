@@ -9,5 +9,9 @@ namespace MyPlayer
     class Song
     {
         public string lirics;
+        string _name;
+        Artist _artist;
+        int _duration;
+
     }
 }
