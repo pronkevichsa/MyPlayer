@@ -23,6 +23,12 @@ namespace MyPlayer
         public MainWindow()
         {
             InitializeComponent();
+            var Player = new Player();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

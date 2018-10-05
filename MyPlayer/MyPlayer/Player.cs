@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyPlayer
 {
-    class Player
+    public class Player
     {
         private bool _locked;
         private int _volume;
@@ -30,7 +30,7 @@ namespace MyPlayer
         {
 
         }
-        public void Add(Author author)
+        public void Add(Artist author)
         {
 
         }

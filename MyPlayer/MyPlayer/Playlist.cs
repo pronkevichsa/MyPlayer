@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyPlayer
 {
-    class Playlist
+    public class Playlist
     {
-        string _name;
-        Song[] songs;
+        public string _name;
+        public Song[] songs;
     }
 }
