@@ -23,12 +23,24 @@ namespace MyPlayer
         public MainWindow()
         {
             InitializeComponent();
-            var Player = new Player();
+            var player = new Player();
+            //player._volume = 300;
+            //textBox.Text = player._volume.ToString();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void slider_IsEnabledChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            textBox.Text = slider.Value.ToString();
+        }
+
+        private void slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            textBox.Text = slider.Value.ToString();
         }
     }
 }

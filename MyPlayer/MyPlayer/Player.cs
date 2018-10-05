@@ -9,7 +9,21 @@ namespace MyPlayer
     public class Player
     {
         private bool _locked;
+
+
         private int _volume;
+        public int Volume
+        {
+            get { return _volume; }
+            set
+            {
+                if (value < 0) _volume = 0;
+                else if (value > 100) _volume = 100;
+                else _volume = value;
+            }
+        }
+
+
         bool IsPlaying;
         Song[] songs;
         Song PlayingSong;
