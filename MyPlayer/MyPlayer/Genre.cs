@@ -9,5 +9,6 @@ namespace MyPlayer
     class Genre
     {
         string _name;
+        string _secondName;
     }
 }
